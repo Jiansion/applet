@@ -1,0 +1,38 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"packOptions": {
+		"ignore": [
+			{
+				"type": "folder",
+				"value": "env"
+			}
+		]
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"appid": "wxb0216e44fb6fc180",
+	"projectname": "applet",
+	"libVersion": "2.2.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"scripts": {
+		"beforeCompile": "node switch.env --dev",
+		"beforePreview": "node switch.env --dev",
+		"beforeUpload": "node switch.env --prod"
+	},
+	"condition": {
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}

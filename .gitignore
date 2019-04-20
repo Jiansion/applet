@@ -1,0 +1,9 @@
+*.log
+*test
+*swp
+test*
+dev*
+logs
+package-lock.json
+.idea
+node_modules
