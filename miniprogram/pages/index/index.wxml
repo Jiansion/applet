@@ -1,1 +1,14 @@
-<view>首页</view>
+<navigateBar bgColor="bg-gradual-blue" isBack="{{false}}" isCustom="{{false}}">
+    <!-- 返回键说明文字 -->
+    <!-- <view slot="backText">返回</view> -->
+    <!-- 右边胶囊文字 -->
+    <!-- <view slot="right">👉</view> -->
+
+    <!-- 页面标题 -->
+    <view slot="content">首页</view>
+</navigateBar>
+
+
+<view>
+    首页
+</view>

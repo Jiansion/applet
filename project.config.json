@@ -33,6 +33,8 @@
 		"beforePreview": "",
 		"beforeUpload": "node switch.env --prod"
 	},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

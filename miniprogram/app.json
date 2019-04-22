@@ -3,10 +3,12 @@
         "pages/index/index"
     ],
     "window": {
-        "backgroundColor": "#F6F6F6",
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#F6F6F6",
-        "navigationBarTitleText": "Applet",
-        "navigationBarTextStyle": "black"
+        "navigationBarBackgroundColor": "#39b54a",
+        "navigationBarTitleText": "Color UI",
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "white"
+    },
+    "usingComponents": {
+        "navigateBar": "components/navigateBar/navigateBar"
     }
 }
