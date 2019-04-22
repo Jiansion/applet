@@ -5,7 +5,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const callfile = require('child_process'); 
 
 //源文件
 const sourceFiles = {
@@ -45,7 +44,7 @@ fs.readFile(__dirname + sourceFiles.prefix + sourceFile,
                 throw new Error(`error occurs when reading file ${sourceFile}. Error detail: ${err}`);
                 process.exit(1)
             } else if (isProd){
-                callfile.execFile("upload.sh")
+                // 进行其他操作
             }
         })
 
